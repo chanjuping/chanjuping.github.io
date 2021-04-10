@@ -1,7 +1,9 @@
+---
 layout: post
 title: "Optimized setup for DSI Touchscreen and HDMI Output"
 date: 2021-04-09 18:10:00 -0800
 categories: RaspberryPi, Pi3, Touchscreen, HDMI
+---
 
 # It's not on by default
 
