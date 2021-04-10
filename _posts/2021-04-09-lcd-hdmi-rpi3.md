@@ -1,17 +1,15 @@
 ---
 layout: post
-title: "Optimized setup for DSI Touchscreen and HDMI Output"
+title: "Optimized Setup for DSI Touchscreen and HDMI Output"
 date: 2021-04-09 18:10:00 -0800
-categories: RaspberryPi, Pi3, Touchscreen, HDMI
+categories: [RaspberryPi, Pi3, Touchscreen, HDMI]
 ---
-
-# It's not on by default
 
 It took quite a bit of time to get the official Raspberry Pi touchscreen working correctly with my monitor via HDMI at the same time, so I am going to be documenting the important details here.
 
 The primary source of my guide is found [here](https://www.raspberrypi.org/forums/viewtopic.php?p=1504551&sid=50656cbcb593715dbb631ce935544a12#p1504551) though I will pepper the guide with other links that helped me resolve the issue fully.
 
-# The code
+# The Primary Solution
 
 Add the following to the end of `/boot/config.txt` with only the touchscreen connected:
 
