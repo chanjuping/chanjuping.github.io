@@ -4,26 +4,10 @@ title: About
 permalink: /about/
 ---
 
-[Reverie](https://github.com/amitmerchant1990/reverie) is a Jekyll theme which is simple and opinionated. It's actually a fork of [jekyll-now](https://github.com/barryclark/jekyll-now) with some additional features and personal touches which I've implemented to suit my needs for [my blog](https://www.amitmerchant.com).
+It's remarkable how far technology has advanced since I last started blogging. A decade ago, I would be furiously tinkering with my web server running Wordpress just so I can put out thoughts that in retrospect, were worth less than the effort put into learning how to get the server running.
 
-This is a plug-and-play Jekyll theme which you can use on GitHub Pages without even setting up a local environment.
+Now with GitHub, I can deploy a blog in 1/10 of the time I would be spending tinkering with Wordpress and databases, with all the features that truly matter for me. Wordpress will probably be the preferred platform if you have a need for a website with multiple authors, and the mindshare of developers ready to provide you with a plugin for just about any feature you can think of for a modern website.
 
-## Features
+However, there will always be a place on the web where the only thing that matters to the creator are the words.
 
-- Command-line free fork-first workflow, using GitHub.com to create, customize and post to your blog
-- Fully responsive and mobile optimized base theme
-- Sass/Coffeescript support using Jekyll 2.0
-- Free hosting on your GitHub Pages user site
-- All the SEO goodies comes in-built
-- Markdown blogging
-- Syntax highlighting using Pygments
-    - [Dracula syntax theme](https://draculatheme.com/) included
-- Disqus commenting
-- Google Analytics integration
-- Fuzzy search across blog posts
-- Pagination of posts works out-of-the-box.
-- Categorize posts out-of-the box
-- RSS Feed
-- In-built sitemap
-
-Learn more about it [here](https://github.com/amitmerchant1990/reverie) on how to get started.
+This site will serve as a repository of notes for future reference because the human brain has to forget certain details over time to remain optimally functional. I hope my tiny contribution to the Internet resulting from my physical inability to upgrade my biological storage will aid you, dear traveler, in your tech journey as well.
