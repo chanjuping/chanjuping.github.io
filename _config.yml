@@ -24,7 +24,7 @@ avatar: /images/chanjuping.png
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: juping@georgetown.technology
-  github: https://github.com/chanjuping
+  github: chanjuping
   rss: rss
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
