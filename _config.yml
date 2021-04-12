@@ -34,7 +34,7 @@ disqus:
 # Your website URL (e.g. http://amitmerchant1990.github.io or http://www.amitmerchant.com)
 # Used for Sitemap.xml and your RSS feed
 url: http://chanjuping.github.io/
-enforce_ssl: https://chanjuping.github.io/
+enforce_ssl:
 
 # !! You don't need to change any of the configuration flags below !!
 #
