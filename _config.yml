@@ -2,7 +2,7 @@
 # This file contains configuration flags to customize your site
 
 # Set theme here
-# theme: jekyll-theme-midnight
+theme: jekyll-theme-midnight
 
 
 # Name of your site (displayed in the header)
