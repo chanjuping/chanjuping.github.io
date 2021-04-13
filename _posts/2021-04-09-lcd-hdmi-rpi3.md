@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Optimized Setup for DSI Touchscreen and HDMI Output"
-date: 2021-04-09 18:10:00 -0800
+date: 2021-04-09 18:10:00 +0800
 categories: [RaspberryPi, Pi3, Touchscreen, HDMI]
 ---
 
