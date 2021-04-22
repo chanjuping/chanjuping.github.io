@@ -5,7 +5,7 @@ date: 2021-04-22 +0800
 categories: [Linux, Bluetooth, Raspberry Pi 4]
 ---
 
-A very unexpected problem cropped up when I received my new Raspberry Pi 4 8GB device. I could no longer pair, let alone connect to my Logitech Mx Ergo. A surprising development considering how relatively reliable the connectivity was with my 2 GB variant of the Pi 4 devices.
+A very unexpected problem cropped up when I received my new Raspberry Pi 4 8GB device. I could no longer pair, let alone connect to my Logitech MX Ergo. A surprising development considering how relatively reliable the connectivity was with my 2 GB variant of the Pi 4 devices.
 
 Many hours of searching later, I found the solution [here](https://github.com/RPi-Distro/pi-bluetooth/issues/8#issuecomment-467668132) which indicates a potential race condition during bootup.
 
