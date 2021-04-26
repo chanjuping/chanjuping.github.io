@@ -13,27 +13,51 @@ In this instance, I wanted to pair my phone with my Pi via the KDEConnect system
 
 First, install `kdeconnect`.
 
-> sudo apt install kdeconnect
+```shell
+
+sudo apt install kdeconnect
+
+```
 
 Next get the path to the `kdeconnectd` executable.
 
-> dpkg-query -L kdeconnect | grep libexec
+```shell
+
+dpkg-query -L kdeconnect | grep libexec
+
+```
 
 In my case, I found the file in `/usr/lib/aarch64-linux-gnu/libexec/kdeconnectd`. I launched it thus:
 
-> cd /usr/lib/aarch64-linux-gnu/libexec/
-> ./kdeconnect
+```shell
+
+cd /usr/lib/aarch64-linux-gnu/libexec/
+./kdeconnect
+
+```
 
 Help with the tool can be found via:
 
-> kdeconnect-cli --help
+```shell
+
+kdeconnect-cli --help
+
+```
 
 With the KDEConnect app running on my phone, I was able to check that my Pi's hostname was being advertised. Since I did not have a proper Plasma desktop running, I decided to initiate a pairing request from the Pi to my phone. I ran a scan in the terminal for available devices:
 
-> kdeconnect-cli -a
+```shell
+
+kdeconnect-cli -a
+
+```
 
 And after seeing my phone's ID, I initiated a pairing request, substituting `DeviceIDString` with the output from `kdeconnect-cli -a`:
 
-> kdeconnect-cli -d `DeviceIDString` --pair
+```shell
+
+kdeconnect-cli -d _DeviceIDString_ --pair
+
+```
 
 Accept the pairing request on your phone, and you are ready to rock!
