@@ -56,7 +56,7 @@ And after seeing my phone's ID, I initiated a pairing request, substituting `Dev
 
 ```shell
 
-kdeconnect-cli -d _DeviceIDString_ --pair
+kdeconnect-cli -d DeviceIDString --pair
 
 ```
 
