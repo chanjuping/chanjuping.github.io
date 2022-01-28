@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "Bluetooth Fix for Some Raspberry Pi 4 devices"
+title: "Bluetooth Fix for Some Raspberry Pi 4 devices (Probably Resolved)"
 date: 2021-04-22 +0800
 categories: [Linux, Bluetooth, Raspberry Pi 4]
 ---
+
+Update 20210515: Yesterday the upgrade to Ubuntu 21.04 was made available for my setup, and after upgrading, this solution seems to have been obsoleted! I had to re-pair my mouse initially after saying goodbye to Groovy Gorrila, but after that, no more need to run esoteric commands to get Bluetooth working. Hooray!
 
 A very unexpected problem cropped up when I received my new Raspberry Pi 4 8GB device. I could no longer pair, let alone connect to my Logitech MX Ergo. A surprising development considering how relatively reliable the connectivity was with my 2 GB variant of the Pi 4 devices.
 
