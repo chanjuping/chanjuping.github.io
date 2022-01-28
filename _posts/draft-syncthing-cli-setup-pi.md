@@ -1,3 +1,5 @@
+Adding a post online just to keep this blog alive. I can always comeback to make corrections later.
+
 Install syncthing
 
 > sudo apt install syncthing
